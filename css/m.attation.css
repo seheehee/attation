@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+header {
+    width: 100%;
+}
+
+header .icon_area > a:first-child ,
+header .icon_area > a:nth-child(2) {
+    display: none;
+}
+header h1 {
+    margin: 40px;
+}
+header .icon_area > a:last-child img{
+ width: 50px; height: 50px;
+ padding: 50px 0 0 30px;
+}
+header .gnb {
+    position: fixed;
+    left: 0; top: 80px;
+    background: #fff;
+    width: 100%;
+    z-index: 100;
+}
+header .gnb ul {
+    display: none;
+}
+
+/* //header */
+
+
+/* swiper */
+.main_visual {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 0;
+    position: relative;
+}
+.main_visual .swiper-slide {
+    position: relative;
+    height: 250px;
+}
+.main_visual .main_text {
+    position: absolute;
+    display: block;
+    width: 80%;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.main_visual .main_text p {
+    display: none;
+}
+.main_visual .main_text strong{
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+    background: #414141;
+    opacity: 50%;
+    margin-bottom: 0;
+}
+.main_visual .main_text > a {
+    display: none;
+}
+
+.m_text {
+    display: block;
+}
+
+
+/* best_products */
+.best_products {
+    margin: 10px 30px;
+}
+.best_products > h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.best_products > div,
+.best_products .pro02 {
+    margin-bottom: 50px;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.best_products .p_img {
+    width: 100%;
+}
+.best_products .p_text {
+    width: 100%;
+    padding:0;
+}
+.best_products .p_text > a {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* //best_products */
+
+
+/* cellection */
+.cellection .cell_area{
+    display: block;
+}
+.cellection h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+.cellection p {
+    font-size: 15px;
+}
+.cellection .cell_area .cell01, 
+.cellection .cell_area .cell02,
+.cellection .cell_area .cell03 {
+    width: 100%;
+    margin-bottom: 30px;
+}
+/* //cellection*/
+
+
+/* event */
+.event_area {
+    width: 100%;
+}
+.event_area .event_text {
+    width: 90%;
+}
+.event_area .event_text p{
+    text-align: left;
+    padding: 0 40px;
+}
+
+/* footer */
+footer{
+    position: relative;
+    text-align: center;
+    height: 350px;
+    display: block;
+    padding: 10px;
+}
+footer .f_01 ,
+footer .f_02 ,
+footer .f_03 {
+width: 100%;
+}
+footer .f_01 ,
+footer .f_02 {
+    margin-bottom: 20px;
+}
+footer p {
+    padding: 0 20px;
+}
+footer .f_03 .btn_sns {
+    display: block;
+}
+
+/* //footer */
